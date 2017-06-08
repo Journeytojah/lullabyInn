@@ -1,0 +1,83 @@
+body, html {
+    height: 100%;
+}
+
+.bg { 
+    /* The image used */
+    background-image: url(../img/bg2.jpg);
+
+    /* Full height */
+    height: 100%; 
+    width: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+
+}
+
+/* navbar */
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+    margin-bottom: 0px;
+    position: fixed;
+    width: 100%;
+    border-radius: 0px;
+    z-index: 10007;
+}
+
+.section {
+	background-color: #173e43;
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+
+.section1 {
+
+	background-color: #dddfd4;
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+
+.section2 {
+	background-color: #173e43;
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+
+.section3 {
+	background-color: #dddfd4;
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+
+.hero1 {
+	margin-top: 300px;
+	color: white;
+}
+
+.about {
+	color: #3fb0ac;
+}
+
+.about2 {
+	color: #3fb0ac;
+
+}
+
+.review {
+	color: #3fb0ac;
+}
+
+p {
+	color: white;
+}
+
+/* CSS used here will be applied after bootstrap.css */
+
+.thumbnail {
+	padding:0;
+}
